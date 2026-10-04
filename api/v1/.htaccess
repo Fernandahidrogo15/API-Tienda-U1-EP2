@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^productos/?$ productos.php [L,QSA]
+RewriteRule ^productos/([0-9]+)/?$ productos.php?id=$1 [L,QSA]
