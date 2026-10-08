@@ -1,0 +1,71 @@
+{
+  "info": {
+    "_postman_id": "601e2917-f8d7-4477-8d1c-e41a9063a9b1",
+    "name": "API Tienda - U1 EP2",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58709363",
+    "_collection_link": "https://go.postman.co/collection/58709363-601e2917-f8d7-4477-8d1c-e41a9063a9b1?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Folder",
+      "item": [
+        {
+          "name": "Todos los productos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Producto por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear producto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Actualizar producto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar producto",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
