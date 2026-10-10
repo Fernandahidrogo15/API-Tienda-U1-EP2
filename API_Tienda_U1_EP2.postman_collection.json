@@ -147,6 +147,429 @@
           "response": []
         }
       ]
+    },
+    {
+      "name": "Proveedores",
+      "item": [
+        {
+          "name": "Obtener todos los proveedores",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/proveedores",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "proveedores"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener proveedor por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/proveedores/1",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "proveedores",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear proveedor",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nombre\": \"Proveedor Postman Prueba\",\r\n  \"telefono\": \"8710000000\",\r\n  \"email\": \"proveedor.postman.prueba@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/proveedores",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "proveedores"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Actualizar proveedor",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nombre\": \"Proveedor Postman Actualizado\",\r\n  \"telefono\": \"8711112233\",\r\n  \"email\": \"proveedor.postman.prueba@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/proveedores/7",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "proveedores",
+                "7"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar proveedor",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/proveedores/7",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "proveedores",
+                "7"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Categorias",
+      "item": [
+        {
+          "name": "Obtener todas las categorías",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/categorias",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "categorias"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener categoría por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/categorias/1",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "categorias",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear categoría",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nombre\": \"Categoria Postman Prueba\",\r\n  \"descripcion\": \"Categoria temporal para pruebas\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/categorias",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "categorias"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Actualizar categoría",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nombre\": \"Categoria Postman Actualizada\",\r\n  \"descripcion\": \"Categoria actualizada mediante Postman\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/categorias/7",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "categorias",
+                "7"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar categoría",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/categorias/7",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "categorias",
+                "7"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Clientes",
+      "item": [
+        {
+          "name": "Obtener todos los clientes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/clientes",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "clientes"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener cliente por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/clientes/1",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "clientes",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear cliente",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nombre\": \"Cliente\",\r\n  \"apellido\": \"Postman Prueba\",\r\n  \"telefono\": \"8712223344\",\r\n  \"email\": \"cliente.postman.prueba@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/clientes",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "clientes"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Actualizar cliente",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nombre\": \"Cliente\",\r\n  \"apellido\": \"Postman Actualizado\",\r\n  \"telefono\": \"8713334455\",\r\n  \"email\": \"cliente.postman.prueba@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/clientes/7",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "clientes",
+                "7"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar cliente",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://40.233.31.164/api/v1/clientes/7",
+              "protocol": "http",
+              "host": [
+                "40",
+                "233",
+                "31",
+                "164"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "clientes",
+                "7"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
     }
   ]
 }

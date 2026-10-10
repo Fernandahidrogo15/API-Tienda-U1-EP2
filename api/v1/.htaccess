@@ -2,3 +2,12 @@ RewriteEngine On
 
 RewriteRule ^productos/?$ productos.php [L,QSA]
 RewriteRule ^productos/([0-9]+)/?$ productos.php?id=$1 [L,QSA]
+
+RewriteRule ^proveedores/?$ proveedores.php [L,QSA]
+RewriteRule ^proveedores/([0-9]+)/?$ proveedores.php?id=$1 [L,QSA]
+
+RewriteRule ^categorias/?$ categorias.php [L,QSA]
+RewriteRule ^categorias/([0-9]+)/?$ categorias.php?id=$1 [L,QSA]
+
+RewriteRule ^clientes/?$ clientes.php [L,QSA]
+RewriteRule ^clientes/([0-9]+)/?$ clientes.php?id=$1 [L,QSA]
